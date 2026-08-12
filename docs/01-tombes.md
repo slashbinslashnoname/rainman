@@ -22,6 +22,11 @@ Routes de preuve **mortes**, **bloquées**, **piégées** ou **artefacts de mét
 | A16 | κ ≥ 2/3 ⇒ RH | ENTERRÉE | Affaiblissement ; plafond bande Fourier ≤1 |
 | A17 | GUE / pair correlation ⇒ RH | HEURISTIQUE | Stats locales ≠ tous les zéros sur la ligne |
 | A18 | ML / fit de zéros sans majoration | ENTERRÉE | Pas de preuve analytique |
+| A19 | 3ᵉ moment tr Ĝ³ pour battre κ=2/3 | ENTERRÉE | Moment impair : coefficient dual c₃≤0 forcé (Markov–Krein) ⇒ borne = 2−m₂ inchangée ; plage RS impose λ<2/3 où H(2/3)≈0,278 ≪ 2/3 |
+| A20 | Inconditionnalisation naïve du support 2 en famille (CLLR) | BLOQUÉE | GRH utilisée **côté premiers** (CLLR Lemmes 4/7/8, sommes de caractères via région sans zéro), pas pour localiser les zéros ; l'inertie ne rachète que le côté zéros |
+| A21 | Positivité Connes–van Suijlekom comme ingrédient externe | PIÉGÉE | Réalité à c fini conditionnée (fondamental simple, isolé, pair — invérifiable) ; positivité **uniforme en c** ≡ RH |
+| A22 | Biais des moments (pipeline Gabor) ≈ « plunge region » de Slepian | ARTEFACT | C'était le **taper** : excès ∝ η, constant en N ; prédit (b+λ₁²J)/a² ; falsification η=0,05/0,10/0,20 → mesuré +1,11/+2,47/+5,50 % vs prédit +1,25/+2,60/+5,68 % |
+| A23 | Pondération par profondeur \|β−½\| via rang–trace | BLOQUÉE | Terme X^{\|2β−1\|} lu côté premiers **précisément pour éviter sa borne** ; sensibilité limitée à \|β−½\| ≪ 1/log T ; incomparable à Guth–Maynard (échelles disjointes) |
 
 ## Pipeline auto-enterrement (false friends)
 

@@ -14,6 +14,9 @@ Pistes encore **vivantes** : équivalences non prouvées, affaiblissements produ
 | B8 | Proportion κ = liminf N₀/N | PARTIELLE | barrière λ≤1 | classique ~41.7 % ; annonce 2026 ~67 % (**NEEDS_VERIFICATION**) |
 | B9 | Robin/Lagarias structurels (tous CA) | OUVERTE | asymptotique CA | hold sur échantillon HC/CA |
 | B10 | Gram Beurling / Vasyunin | OUVERTE | N fini | PSD + Cholesky N≤100 |
+| B11 | Courbe H_fam(λ)=1−1/(3λ²) (famille primitive, GRH) | PARTIELLE | λ=2 = sup non atteint | Interpole Montgomery 2/3 (λ=1) ↔ Özlük/CLLR 11/12 (λ=2) ; fond = CLLR Lemme 9 non spécialisé ; statut folklore ; courriers envoyés (Chandee et al., issue zeta-23-lean) |
+| B12 | Dé-GRH-iser le plateau f=1 sur (1,1+η) | OUVERTE | grand crible asymptotique (CIS 1105.1176) inconditionnel au-delà de la bande 1 | Tout η>0 ⇒ constante **inconditionnelle** en famille >2/3 via la machinerie du Thm E ; LA question ouverte isolée par la session |
+| B13 | HL*(4,λ) ⇒ 13/18 (certificat 4 moments) | PARTIELLE | corrélations premiers force Hardy–Littlewood | Certificat mesuré sur vrais zéros : cert4 ≈ 0,70–0,72 (cible 13/18=0,7222) > cert2 ≈ 0,65–0,68 sur mêmes données |
 
 ## Notes par crypte
 

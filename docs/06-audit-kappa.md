@@ -58,3 +58,10 @@ Rupture par rapport au cadre Levinson : algèbre linéaire globale sur Gram, pas
 
 - **B8** : crypte partielle (affaiblissement productif)  
 - **A16** : « κ≥2/3 ⇒ RH » est **ENTERRÉE** comme preuve  
+
+## Compléments d'audit (session 2026-08-11/12)
+
+- **Plafond auto-établi du mécanisme : 0,68185** (Rem. 1.1) ; atteindre 0,70/0,80/0,90 exigerait support Fourier ≈1,04/1,26/1,70 — hors du connu.
+- **Nature du 67 % :** proportion *asymptotique* (liminf de densité), pas une jauge de complétude. Même « 100 % » (densité 1) ≠ RH — un ensemble de densité nulle peut contenir une infinité de contre-exemples (analogie : les carrés parfaits sont de densité nulle mais infinis). Le résultat est *insensible à o(N) zéros hors droite* (§1.5).
+- **Lieu de la mort de toute extension :** F(α) pour |α|>1 ⟺ variance des premiers en petits intervalles (Goldston–Montgomery) ⟺ Hardy–Littlewood ⟸ barrière de parité de Selberg. En famille, le plateau f=1 sur (1,2) est prouvé (CLLR) mais **sous GRH côté premiers** (A20).
+- Contrôle numérique indépendant : RUN 17 (reproduction exacte du §8(1)).

@@ -60,3 +60,15 @@
 
 - Hyperbolicité OK pour d≤7 en proxy produit.
 - Échecs apparents d≥8 : **artefact** — coefficients a_n non convergés quand on augmente le nombre de zéros dans le produit.
+
+## Session 2026-08-11/12 (avec Claude) — consolidé
+
+| Découverte | Valeur | Statut |
+|------------|--------|--------|
+| Reproduction §8(1) | N(I)=472, Ĝ⪰0, M2=1,386 vs 1,387 | ORACLE stable |
+| Hiérarchie certificats sur vrais zéros | cert2≈0,65–0,68 < cert4≈0,70–0,72 (cible 13/18) | mesuré, 6 hauteurs |
+| Correction de taper | excès M2 = (b+λ₁²J)/a² − 4/3 ∝ η ; vérifiée à 3 valeurs de η | falsifiée-et-survécue |
+| Courbe famille | H_fam(λ)=1−1/(3λ²) ; 2/3 (λ=1) ↔ 11/12 (λ=2) | folklore (CLLR Lemme 9) |
+| Contrôle Poisson | M4≈17,6 vs 3,25 attendu | discriminant du pipeline |
+
+**Rétractations honnêtes de la session :** « excès arithmétique dû aux premiers » (mesure initiale +4–7 %) → réattribué au taper + convention de fenêtre (A22) ; premières valeurs m5/m6 → invalidées (pipeline non calibré au moment de la mesure).

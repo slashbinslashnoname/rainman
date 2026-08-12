@@ -39,3 +39,7 @@ Cimetière d’hypothèses et journal d’exploration autour de la **conjecture 
 ## Période
 
 2026-08-11 → 2026-08-12
+
+## Attribution
+
+Exploration menée avec **Claude (Anthropic)** — session du 11–12 août 2026 : triage, calculs (RUN 16–20), diligence bibliographique et rédaction assistés par IA, décisions et déploiement humains. Le fond mathématique des résultats cités appartient à leurs auteurs (Montgomery, Özlük, CLLR, BGSTB, Claude/Anthropic 2026, etc.).

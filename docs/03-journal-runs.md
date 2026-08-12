@@ -72,3 +72,28 @@ Expériences numérotées. Chaque RUN a un **tag cimetière** (preuve / oracle /
 | 4 | artefact Jensen produit |
 | 5, 14 | taxonomie |
 | 6, 11, 15 | détecteur zero-push |
+
+## RUN 16 — Zéros de ζ (deux méthodes croisées)
+- 1377 zéros mpmath (validés vs zetazero, err ≤ 1,6e-11) + 9047 zéros par Riemann–Siegel vectorisé (fenêtres jusqu'à T=10⁶)
+- Garde-fou : comptage vs θ(t)/π exact à ±1,5 (fluctuation S(t)) après resserrage pas 0,28→0,08
+- **Tag :** OUTIL (support RUN 17–20)
+
+## RUN 17 — Reproduction §8(1) du papier κ≈67 %
+- Fenêtre (600,1200] : N(I)=472 ✓ (papier : 472) ; matrice Ĝ ⪰ 0 ✓ ; M2=1,386 (papier §8(6) : 1,387)
+- **Tag :** ORACLE (point de contrôle indépendant du claim B8)
+
+## RUN 18 — Moments M2–M4, 6 hauteurs (L=4,2→12,0) + contrôles
+- ζ : M2≈1,32–1,35, M3≈1,94–2,05, M4≈3,04–3,36 selon convention de fenêtre
+- Contrôle Poisson : M4≈17,6 → violemment exclu (pipeline discriminant) ; contrôle GUE : biais commun (→ RUN 20)
+- **Tag :** OUVERT (calibration HL*, support B13)
+
+## RUN 19 — Certificats de Christoffel mesurés sur vrais zéros
+- Sanity : cert4(moments sinus exacts) = 13/18 = 0,7222 exact ✓
+- Mesuré : cert2 ≈ 0,646–0,677 (cible 2/3), cert4 ≈ 0,696–0,721 (cible 13/18) ; hiérarchie +4,5 à 5 pts confirmée empiriquement
+- **Tag :** OUVERT (B13) ; ne certifie rien de nouveau (RH vérifiée à ces hauteurs) — mesure la *force de la méthode*
+
+## RUN 20 — Falsification de l'explication du biais (taper vs Slepian)
+- Prédiction a priori : excès M2 = +1,25/+2,60/+5,68 % pour η=0,05/0,10/0,20 ; mesuré (mêmes points GUE) : +1,11/+2,47/+5,50 %
+- Alternative « plunge Slepian » (O(log N/N), indép. de η) réfutée
+- **Découverte :** biais ∝ η, constant en N, corrigeable par (b+λ₁²J)/a²
+- **Tag :** ARTEFACT méthode (→ A22) ; leçon : toujours prédire *avant* de mesurer
