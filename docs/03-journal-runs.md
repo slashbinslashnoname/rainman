@@ -97,3 +97,15 @@ Expériences numérotées. Chaque RUN a un **tag cimetière** (preuve / oracle /
 - Alternative « plunge Slepian » (O(log N/N), indép. de η) réfutée
 - **Découverte :** biais ∝ η, constant en N, corrigeable par (b+λ₁²J)/a²
 - **Tag :** ARTEFACT méthode (→ A22) ; leçon : toujours prédire *avant* de mesurer
+
+## RUN 21 — Extrapolation η→0 : premières estimations m5, m6 (méthode M1)
+- Prédiction : m2,m3,m4 → cibles à 1-2 % ✓ (0,09/0,09/0,13 % à N=2000, graine 314)
+- MAIS test de taille finie : dérive m5 = 5,45/5,54/5,71 pour N=1000/2000/4000
+- **Tag :** ARTEFACT partiel — M1 rétrogradée à vérification de cohérence
+
+## RUN 22 — Estimateur diagonal (méthode M3, indépendante) : le résultat porteur
+- N=2000, 14 reps, marge 25 : contrôles EXACTS (m2=1,3340±0,0022 ; m3=2,0014±0,007 ; m4=3,2511±0,019)
+- **Découverte :** m5(1) = 5,607 ± 0,048 ; m6(1) = 10,13 ± 0,11 — jamais publiés
+- Candidat 28/5 = 5,600 compatible (0,15σ) ; 39/7 et 17/3 non exclus → NON établi
+- Contrôle restant : marge 50 (coupé par timeout)
+- **Tag :** OUVERT (B13) ; décision par symbolique (priorité 10) ; note complète → docs/note-m5-m6.md

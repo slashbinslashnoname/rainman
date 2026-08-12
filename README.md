@@ -24,6 +24,7 @@ Cimetière d’hypothèses et journal d’exploration autour de la **conjecture 
 | [docs/05-decouvertes-numeriques.md](docs/05-decouvertes-numeriques.md) | Résultats numériques consolidés |
 | [docs/06-audit-kappa.md](docs/06-audit-kappa.md) | Audit claim κ ≈ 67 % (août 2026) |
 | [docs/07-priorites.md](docs/07-priorites.md) | Suite possible |
+| [docs/note-m5-m6.md](docs/note-m5-m6.md) | Note : premières estimations m₅, m₆ du noyau sinus (RUN 21–22) |
 | [archive/CIMETIERE_RH_full.md](archive/CIMETIERE_RH_full.md) | Dump monolithique (référence) |
 
 ## Status global
